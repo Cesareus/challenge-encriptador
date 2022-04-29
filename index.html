@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,height=device-height, initial-scale=1.0, user-scalable=no">
+        <title>Encriptador de texto</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script src="script.js"></script>
+        <header>
+            <section>  
+                <img src="imagenes/Vector.jpg" alt="logo-encriptador" class="logo-alura">                                              
+                <textarea cols="auto" rows="auto" id="textoaencriptar" placeholder="Ingrese el texto aquí"></textarea>  
+            </section>
+        </header>
+        
+        <main>
+
+            <h1><img src="imagenes/Vector (1).jpg">Solo letras minúsculas y sin acentos</h1>
+            
+            <section>
+                <div  class="caja-botones">                                        
+                    <button name="encriptar" id="encriptar" onclick="minusculas();">Encriptar</button>
+                    <button name="desencriptar" id="desencriptar" onclick="desencriptar();">Desencriptar</button>
+                </div>
+            </section>            
+
+        </main>
+
+        <footer>
+
+            <section class="caja">
+                <textarea cols="auto" rows="auto" name =""id="texto-encriptado" style="display:none;"></textarea>  
+                <img src="imagenes/Muñeco.jpg" alt="muñeco-encriptador" id="muñeco">
+                <p>Ningún mensaje fue encontrado</p>
+                <p>Ingresa el texto que desees encriptar o desencriptar</p>
+                <button name="copiar" id="copiar" onclick="copiartexto();">Copiar</button>
+            </section>
+
+        </footer>
+        
+    </body>
+
+
+</html>

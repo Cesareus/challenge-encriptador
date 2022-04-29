@@ -1,0 +1,245 @@
+body{
+  font-family: Inter;
+  background: #F3F5FC;   
+}
+
+header{  
+  width: 68vw;
+  height: 70vh;
+  background: #F3F5FC;
+}
+.logo-alura{
+  position: absolute;
+  width: 2.20%;
+  margin: 2.4%;
+}
+#textoaencriptar{
+
+  width: 70%;
+  height: 50vh;
+  margin-top: 10%;
+  margin-left: 20%;
+  padding: 0%;
+  background: #F3F5FC;
+  font-weight: 400;
+  font-size: 1.5em;
+  border: none;
+  outline: none;
+  line-height: 150%;
+}
+main{
+  position: absolute;
+  width: 68vw;
+  height:30vh;
+  background: #F3F5FC;  
+}
+main h1{
+  position: absolute;
+  margin-left: 20%;
+  margin-top: 8vh;  
+  font-style: normal;
+  font-weight: 400;
+  font-size: auto;
+  line-height: 150%;
+  color: #495057;
+  opacity: 0.8;
+}
+.caja-botones{
+  
+  margin-left: 20%;
+  margin-top: 12.5vh;
+}
+#encriptar, #desencriptar{
+  display: inline-block;  
+  width: 30%;  
+  margin: 0 1%;
+  padding: 1.8% 5%;
+  box-sizing: content-box;
+  border: 0.1em solid #000000;
+  border-radius: 1.6em; 
+  font-style: normal;
+  font-weight: 400;  
+  line-height: 19px;
+  text-align: center;
+}
+#encriptar{  
+  background: #0A3871;
+  color: #FFFFFF;
+}
+#desencriptar{
+  background: #D8DFE8;  
+  color: #0A3871;
+}
+#desencriptar:hover{
+
+  background: #c78c19;
+
+}
+#encriptar:hover{
+
+  background: #c78c19;
+ 
+}
+footer{
+  width: 28vw;
+  height: 100vh;
+  position: absolute;
+  top: 2vh;
+  right: 1vw;  
+  background: #F3F5FC; 
+}
+
+.caja{
+  position: absolute;
+  width: 94%;
+  height: 94%;
+  margin: 2%;
+  background:#FFFFFF;  
+  border-radius: 5%;
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 1);
+
+}
+#muñeco{
+
+  width: 70%;
+  margin: 30% 15% 0 15%;
+  
+}
+#texto-encriptado{
+
+  width: 70%;
+  height: 80%;
+  padding: 0%;
+  border: none;
+  outline: none;
+  margin-top: 10%;
+  margin-left: 15%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: auto;
+  line-height: 150%;
+  
+}
+
+#muñeco + p{  
+  margin-top: auto;
+  text-align: center; 
+  font-style: normal;
+  font-size: auto;
+  color: #343A40;
+  font-weight: 700;  
+  line-height: 120%;
+  margin: 1.7% 15%; 
+
+}
+.caja p + p{
+  margin-top: auto;
+  text-align: center;
+  font-style: normal;
+  font-size: auto;
+  font-weight: 400;
+  line-height: 150%;
+  color: #495057;
+  margin: 1.7% 15%; 
+}
+
+#copiar{
+  
+  display: none;
+  background: #FFFFFF;
+  color: #0A3871;
+  position: absolute;
+  width: 78%;
+  margin-left: 12%;
+  bottom: 9%;   
+  padding: 3.2% 5%;
+  box-sizing:border-box;
+  border: 0.1em solid #000000;
+  border-radius: 1.6em; 
+  font-style: normal;
+  font-weight: 400;  
+  line-height: 19px;
+  text-align: center;
+}
+
+#copiar:hover{
+
+  background: #c78c19;
+}
+
+@media screen and (max-width:480px) {
+
+  header{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    background: #F3F5FC;
+  }
+  .logo-alura{
+    position: static;
+    width: 10%;
+    margin: 2.4%;
+  }
+  #textoaencriptar{
+
+    width: 70%;
+    margin-top: 5%;
+    align-items: center;
+  }
+  main{  
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    background: #F3F5FC; 
+  }
+  main h1{
+    position: static;
+    margin-left: 20%;
+    margin-top: 1%;  
+
+  }
+  .caja-botones{    
+    margin-left: 17%;
+    margin-top: 0%;
+  }
+  #encriptar, #desencriptar{
+    display: block;
+    align-items: center;  
+    width: 80%;    
+    margin-bottom: 5%;    
+    padding: 5% 5%;
+    box-sizing:border-box;
+   }
+
+  footer{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;   
+    background: #F3F5FC; 
+  }
+  .caja{
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+  }
+  #muñeco{
+    display:none;
+    
+  }
+  #texto-encriptado{
+    width: 85%;
+    margin: 0 auto; 
+    padding: 0%;
+  }
+  #copiar{
+
+    display:block;
+    position: absolute;
+    width: 70%;
+    bottom: 5%;
+    align-items: center;    
+    padding: 2% 2%;
+    box-sizing:border-box;  
+  }
+  
+}
