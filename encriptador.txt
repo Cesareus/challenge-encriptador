@@ -1,5 +1,0 @@
-Terminar el curso que estoy haciendo de css y ver uno de javascript para ver como asignarle a más de  
-un boton html y css una variable en javascript para asignarle sus funciones.
-la duda es como hacer que se ajuste a cualquier resolución
-los 2 botones de abajo se pueden poner en una box <div> para acomodar
-hay que ver com
