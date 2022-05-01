@@ -7,16 +7,14 @@ var textoencriptado, mensaje, reemplazo, textodesencriptado;
 function validarminusculas(mensaje){ /* funcion para comprobar que el texto 
 esté en minúsculas y sin caracteres especiales*/
     
-    var validarminusculas = true;
     var regex = /^[a-z\s\s+]+$/
         
      if(!regex.test(mensaje)){
 
-        validarminusculas=false;        
+        false;        
 
      }else{
-         validarminusculas=true;
-         return validarminusculas
+         true;        
      }
 
 }
