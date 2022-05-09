@@ -1,4 +1,9 @@
+var vinculoLinkedin = document.querySelector("#vinculo-linkedin")
 
+vinculoLinkedin.addEventListener("click",function(){
+    window.open("https://www.linkedin.com/in/cesar-rosa-007104237", "Mi Linkedin", "width=800, height=600")
+
+});
 
 
 var textoencriptado, mensaje, reemplazo, textodesencriptado;
@@ -9,12 +14,12 @@ esté en minúsculas y sin caracteres especiales*/
     
     var regex = /^[a-z\s\s+]+$/
         
-     if(!regex.test(mensaje)){
+    if(!regex.test(mensaje)){
 
-        false;        
+       return false;        
 
      }else{
-         true;        
+        return true;        
      }
 
 }
@@ -28,7 +33,7 @@ function encriptar(mensaje){
         alert("Debe ingresar el texto a encriptar")
 
     }else {
-
+        
         if(validarminusculas(mensaje)){
            if(mensaje != textoencriptado){
 
@@ -49,9 +54,7 @@ function encriptar(mensaje){
             document.getElementById('texto-encriptado').value = textoencriptado;
             document.getElementById('textoaencriptar').value = textoencriptado;  
            }else{
-
-            alert("el mesanje ya fue encriptado");
-
+            alert("el mensaje ya fue encriptado");
            }
 
 
