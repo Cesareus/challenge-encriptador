@@ -30,7 +30,8 @@ header{
   padding: 0px;
 }
 .linkedin{
-  width: 2em;  
+  width: 2em;
+  cursor: pointer;   
 }
 #textoaencriptar{
 
